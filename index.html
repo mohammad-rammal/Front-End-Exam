@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Exam</title>
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/bootstrap.min.css" />
+</head>
+
+<body id="fll">
+    <div class="container">
+        <div class="row mt-2 p-2 d-flex justify-content-center align-items-center" id="bl">
+            <div class="col-4">
+                <input type="text" name="additem" id="additem" placeholder="Fruits or Legumes" class="form-control" />
+            </div>
+            <div class="col-4">
+                <input type="radio" id="fruits" name="choice" value="fruits" />
+                <label for="fruits">Fruits</label>
+                <input type="radio" id="legamotes" name="choice" value="legamotes" />
+                <label for="legamotes">Legamotes</label>
+            </div>
+            <div class="col-2">
+                <button type="button" name="splist" id="splist" class="btn btn-danger">
+                    Add to specific list
+                </button>
+            </div>
+            <div class="col-2">
+                <button type="button" name="gnlist" id="gnlist" class="btn btn-danger">
+                    Add to general list
+                </button>
+            </div>
+        </div>
+        <div class="row db mt-3 p-4 border-bottom-1" id="bll">
+            <div class="col-1"></div>
+            <div class="col-3">
+                <button type="button" class="btn" name="search" id="search">
+                    Search for item
+                </button>
+                <button type="button" class="btn btn-danger" name="delete" id="delete">
+                    Delete an item
+                </button>
+            </div>
+            <div class="col-3">
+                <input type="text" name="searchForL" id="searchForL" class="form-control"
+                    placeholder="Search for a Fruits or Legumes" />
+            </div>
+            <br /><br /><br />
+            <hr class="red-bold-hr" />
+            <div class="row">
+                <div class="row mt-2">
+                    <div class="col-4 mt-2">
+                        <h4>List of Fruits</h4>
+                        <div class="list list-3 pt-3">
+                            <div class="d-flex justify-content-center">
+                                <div class="alert alert-primary" role="alert">
+                                    <label for="" class="res">Fruits! - Apple</label>
+                                </div>
+                            </div>
+                            <div class="d-flex justify-content-center">
+                                <div class="alert alert-primary" role="alert">
+                                    <label for="" class="res">Fruits! - Mangoes</label>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-4 mt-2">
+                        <h4>List of Fruits & Legumes</h4>
+                        <div class="list list-2 pt-3">
+                            <div class="d-flex justify-content-center">
+                                <div class="alert alert-success" role="alert">
+                                    <label for="" class="res">Fruits! - Pineapples</label>
+                                </div>
+                            </div>
+                            <div class="d-flex justify-content-center">
+                                <div class="alert alert-success" role="alert">
+                                    <label for="" class="res">Fruits! - Bananas</label>
+                                </div>
+                            </div>
+                            <div class="d-flex justify-content-center">
+                                <div class="alert alert-success" role="alert">
+                                    <label for="" class="res">Legumes! - Potato</label>
+                                </div>
+                            </div>
+                            <div class="d-flex justify-content-center">
+                                <div class="alert alert-success" role="alert">
+                                    <label for="" class="res">Legumes! - Lentils</label>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-4 mt-2">
+                        <h4>List of Legumes</h4>
+                        <div class="list list-1 pt-3">
+                            <div class="d-flex justify-content-center">
+                                <div class="alert alert-danger" role="alert">
+                                    <label for="" class="res">Legumes! - Broccoli</label>
+                                </div>
+                            </div>
+                            <div class="d-flex justify-content-center">
+                                <div class="alert alert-danger" role="alert">
+                                    <label for="" class="res">Legumes! - Green Beans</label>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="js/javascript.js"></script>
+    <script src="js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>
